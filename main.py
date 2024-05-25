@@ -50,7 +50,7 @@ def get_model(item:Item):
     b=item.num2
     c=a*b
     return {"multiply":c}
-
+#
 @app.post("/divide")
 def get_model(item:Item):
     a=item.num
